@@ -26,7 +26,7 @@ int main()
                  count+=1;
              }
          }
-        cout <<"even numbers of "<< i + 1 <<"-rows : "<< count << endl;
+        cout <<i + 1<<"-row has "<< count <<" even numbers"<< endl;
         count=0;
          
      }
