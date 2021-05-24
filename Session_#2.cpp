@@ -6,10 +6,11 @@ int main(){
    int a[50], n, p, d ;
    cout << "Enter size of array : ";
      cin >> n;
+     cout << "Enter the values of the array : ";
   for (int i = 0; i < n ; i++){
     cin>>a[i];
   }
-  
+  cout << "Result of operation :           ";
     for(int i = 0; i < n  ; i++){
         d = 2 ;
         p = 1;
