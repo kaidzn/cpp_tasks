@@ -34,9 +34,17 @@ int main (){
     cin >> players[i].quantity_of_goals;
   }
   BestStriker(n);
+  cout << endl;
   cout <<"Best player is: "<<endl;
   for(int i = 0; i < 1; i++){
     cout << players[i].name<<" "<<players[i].surname<<" "<<players[i].position<<" "<<players[i].quantity_of_games<<" "<<players[i].quantity_of_goals<<endl;
+  }
+  cout << endl;
+  cout << "Players, that have less than 5 games: "<<endl;
+  for(int i = 0; i < n; i++){
+    if(players[i].quantity_of_games < 5){
+      cout << players[i].name<<" "<<players[i].surname<<" "<<players[i].position<<" "<<players[i].quantity_of_goals<<" "<<players[i].quantity_of_goals<<endl;
+    }
   }
   
 }
