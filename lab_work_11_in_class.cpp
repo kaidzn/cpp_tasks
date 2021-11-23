@@ -36,8 +36,10 @@ int main() {
   }
   cin >> find_country;
   for( int i = 0; i < n; i++){
+    for(int j = 0; j < clubs[i].num_pl; j++){
     if( find_country == player[i].country_of_player){
       cout << clubs[i].name_club<<endl;
+    }
     }
   }
   
